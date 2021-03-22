@@ -7,7 +7,7 @@ package:
 
 source:
     url: https://github.com/LLNL/kosh/archive/v{{ version }}.tar.gz
-    sha256: 96a82d9ed402da865741a85fe90eb021bd911864d3d85fe3e3ab273a443868fb
+    sha256: 5ad7e2bdec345747950499945d10408cdbd9c822151a968b0a705339505410bc
 
 build:
   number: 0
@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - llnl-sina
   run:
-    - python
+    - python >=3.6
     - llnl-sina
     - networkx
     - numpy
