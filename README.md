@@ -114,3 +114,4 @@ Feedstock Maintainers
 =====================
 
 * [@doutriaux1](https://github.com/doutriaux1/)
+
