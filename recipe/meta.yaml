@@ -10,7 +10,6 @@ source:
     sha256: 5ad7e2bdec345747950499945d10408cdbd9c822151a968b0a705339505410bc
 
 build:
-  skip: True  # [win]
   number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
@@ -18,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - llnl-sina
   run:
-    - python
+    - python >=3.6
     - llnl-sina
     - networkx
     - numpy
