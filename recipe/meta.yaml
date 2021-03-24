@@ -7,7 +7,7 @@ package:
 
 source:
     url: https://github.com/LLNL/kosh/archive/v{{ version }}.tar.gz
-    sha256: 5ad7e2bdec345747950499945d10408cdbd9c822151a968b0a705339505410bc
+    sha256: 85e29116ca879fed05087ca398ec809c984a7d6d9c263217975c660d3979ab13 
 
 build:
   number: 0
@@ -37,7 +37,7 @@ test:
 
 about:
     home:  https://github.com/LLNL/kosh
-    summary: Kosh allows codes to store, query, share data via an easy-to-use Python API. Kosh lies on top of Sina and as a result can use any database backend supported by Sina. In adition Kosh aims to make data access and sharing as simple as possible.
+    summary: Kosh allows codes to store, query, share and manipulate data via an easy-to-use Python API. Kosh lies on top of Sina and as a result can use any database backend supported by Sina. In adition Kosh aims to make data access and sharing as simple as possible.
     license: MIT
     license_file: LICENSE
 
