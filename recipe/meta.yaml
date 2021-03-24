@@ -37,7 +37,7 @@ test:
 
 about:
     home:  https://github.com/LLNL/kosh
-    summary: Kosh allows codes to store, query, share iand manipulate data via an easy-to-use Python API. Kosh lies on top of Sina and as a result can use any database backend supported by Sina. In adition Kosh aims to make data access and sharing as simple as possible.
+    summary: Kosh allows codes to store, query, share and manipulate data via an easy-to-use Python API. Kosh lies on top of Sina and as a result can use any database backend supported by Sina. In adition Kosh aims to make data access and sharing as simple as possible.
     license: MIT
     license_file: LICENSE
 
