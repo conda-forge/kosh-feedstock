@@ -1,5 +1,5 @@
 {% set name = "kosh" %}
-{% set version = "1.2" %}
+{% set version = "2.0" %}
 
 package:
     name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
     url: https://github.com/LLNL/kosh/archive/v{{ version }}.tar.gz
-    sha256: 85e29116ca879fed05087ca398ec809c984a7d6d9c263217975c660d3979ab13 
+    sha256: 059e431e3d3219b53956cb464d9e10933ca141dc89662f55d9c633e35c8b3a1e
 
 build:
   number: 0
@@ -18,10 +18,10 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - llnl-sina
+    - llnl-sina >= 1.11.0
   run:
     - python >=3.6
-    - llnl-sina
+    - llnl-sina >= 1.11.0
     - networkx
     - numpy
 
