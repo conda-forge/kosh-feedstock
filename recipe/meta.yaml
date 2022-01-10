@@ -18,10 +18,10 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - llnl-sina >= 1.11.0
+    - llnl-sina >=1.11.0
   run:
     - python >=3.6
-    - llnl-sina >= 1.11.0
+    - llnl-sina >=1.11.0
     - networkx
     - numpy
 
