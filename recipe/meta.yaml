@@ -31,7 +31,6 @@ test:
   commands:
     - pip check
     - kosh --help
-    - init_sina.py --help
   requires:
     - pip
 
