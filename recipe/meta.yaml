@@ -1,13 +1,13 @@
 {% set name = "kosh" %}
-{% set version = "2.0" %}
+{% set version = "2.1" %}
 
 package:
-    name: {{ name }}
-    version: {{ version }}
+  name: {{ name }}
+  version: {{ version }}
 
 source:
-    url: https://github.com/LLNL/kosh/archive/v{{ version }}.tar.gz
-    sha256: 059e431e3d3219b53956cb464d9e10933ca141dc89662f55d9c633e35c8b3a1e
+  url: https://github.com/LLNL/kosh/archive/v{{ version }}.tar.gz
+  sha256: 597ed5beb4c3c3675b4af15ee7bfb60a463d5bda2222cd927061737ed073d562
 
 build:
   number: 0
@@ -35,11 +35,11 @@ test:
     - pip
 
 about:
-    home:  https://github.com/LLNL/kosh
-    summary: Kosh allows codes to store, query, share and manipulate data via an easy-to-use Python API. Kosh lies on top of Sina and as a result can use any database backend supported by Sina. In adition Kosh aims to make data access and sharing as simple as possible.
-    license: MIT
-    license_file: LICENSE
+  home: https://github.com/LLNL/kosh
+  summary: Kosh allows codes to store, query, share and manipulate data via an easy-to-use Python API. Kosh lies on top of Sina and as a result can use any database backend supported by Sina. In adition Kosh aims to make data access and sharing as simple as possible.
+  license: MIT
+  license_file: LICENSE
 
 extra:
-    recipe-maintainers:
-     - doutriaux1
+  recipe-maintainers:
+    - doutriaux1

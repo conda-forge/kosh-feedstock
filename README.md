@@ -5,7 +5,7 @@ Home: https://github.com/LLNL/kosh
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kosh-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kosh-feedstock/blob/main/LICENSE.txt)
 
 Summary: Kosh allows codes to store, query, share and manipulate data via an easy-to-use Python API. Kosh lies on top of Sina and as a result can use any database backend supported by Sina. In adition Kosh aims to make data access and sharing as simple as possible.
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11562&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kosh-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11562&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kosh-feedstock?branchName=main">
       </a>
     </td>
   </tr>
