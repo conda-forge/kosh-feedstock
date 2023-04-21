@@ -1,5 +1,5 @@
 {% set name = "kosh" %}
-{% set version = "2.2" %}
+{% set version = "3.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/LLNL/kosh/archive/v{{ version }}.tar.gz
-  sha256: 3c79c3b7e7b64018ec5987dd7148886a6c619a28cda6f84e61a57439c9f3d7a3
+  sha256: 6c2f1071ed4a7816ff002b4eda965754d395c917e48e1f5e18042242a4b825d2
 
 build:
   number: 0
@@ -19,11 +19,27 @@ requirements:
     - pip
     - python >=3.6
     - llnl-sina >=1.11.0
+    - networkx
+    - numpy
+    - matplotlib
+    - scipy
+    - h5py >=3
+    - scikit-learn>=1.0.2
+    - pandas
+    - hdbscan
+    - tqdm
   run:
     - python >=3.6
     - llnl-sina >=1.11.0
     - networkx
     - numpy
+    - matplotlib
+    - scipy
+    - h5py >=3
+    - scikit-learn>=1.0.2
+    - pandas
+    - hdbscan
+    - tqdm
 
 test:
   imports:
