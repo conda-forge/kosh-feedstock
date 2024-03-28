@@ -28,6 +28,7 @@ requirements:
     - pandas
     - hdbscan
     - tqdm
+    - cython <3
   run:
     - python >=3.6
     - llnl-sina >=1.14.0
@@ -40,6 +41,7 @@ requirements:
     - pandas
     - hdbscan
     - tqdm
+    - cython <3
 
 test:
   imports:
