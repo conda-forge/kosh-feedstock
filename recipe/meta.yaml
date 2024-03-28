@@ -18,8 +18,8 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - llnl-sina >=1.11.0
-    - networkx
+    - llnl-sina >=1.14.0
+    - networkx >=2.6
     - numpy
     - matplotlib-base
     - scipy
@@ -30,8 +30,8 @@ requirements:
     - tqdm
   run:
     - python >=3.6
-    - llnl-sina >=1.11.0
-    - networkx
+    - llnl-sina >=1.14.0
+    - networkx >=2.6
     - numpy
     - matplotlib-base
     - scipy
