@@ -1,16 +1,16 @@
 {% set name = "kosh" %}
-{% set version = "3.1" %}
+{% set version = "3.3.0" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  url: https://github.com/LLNL/kosh/archive/v{{ version }}.tar.gz
-  sha256: 279b073df8882f6468c1922d890a66819ca45d86fb0bc609bdb605bf44c309c2
+  url: https://github.com/LLNL/kosh/archive/{{ version }}.tar.gz
+  sha256: 55a29d25f2cf3d4cc3c783bac395b9bfd84991a0feafbba5da66f01cb5497176
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
