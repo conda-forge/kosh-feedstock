@@ -1,13 +1,13 @@
 {% set name = "kosh" %}
-{% set version = "3.1" %}
+{% set version = "3.4" %}
 
 package:
   name: {{ name }}
-  version: {{ version }}
+  version: "3.4"
 
 source:
   url: https://github.com/LLNL/kosh/archive/v{{ version }}.tar.gz
-  sha256: 279b073df8882f6468c1922d890a66819ca45d86fb0bc609bdb605bf44c309c2
+  sha256: 10d6a94d90efb941d22f1c81601a0134827f0c96d732fb02d71b5aa89f11a5e3
 
 build:
   number: 1
@@ -18,7 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - llnl-sina >=1.14.0
+    - llnl-sina >=1.15.0
     - networkx >=2.6
     - numpy
     - matplotlib-base
@@ -29,9 +29,10 @@ requirements:
     - hdbscan
     - tqdm
     - cython <3
+    - filelock
   run:
     - python >={{ python_min }}
-    - llnl-sina >=1.14.0
+    - llnl-sina >=1.15.0
     - networkx >=2.6
     - numpy
     - matplotlib-base
@@ -42,6 +43,7 @@ requirements:
     - hdbscan
     - tqdm
     - cython <3
+    - filelock
 
 test:
   imports:
